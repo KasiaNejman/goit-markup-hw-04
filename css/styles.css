@@ -237,8 +237,8 @@ ul {
   border-radius: 2px;
   padding: 4px 2px;
   margin: 0 auto;
-  width: 90rem;
-  height: 37.5rem;
+  width: 1440px;
+  height: 72px;
 }
 .box-model {
   display: flex;
