@@ -371,7 +371,6 @@ h2 {
   padding: 32px 16px;
   border: 1px solid var(---background4);
   border-top: none;
-  cursor: pointer;
   transition: 0.25s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -386,6 +385,7 @@ h3 {
 
 .list-in-portfolio {
   padding: 0;
+  cursor: pointer;
   display: flex;
   justify-content: center;
   flex-flow: wrap;
