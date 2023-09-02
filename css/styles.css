@@ -371,6 +371,7 @@ h2 {
   padding: 32px 16px;
   border: 1px solid var(---background4);
   border-top: none;
+  cursor: pointer;
   transition: 0.25s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -444,6 +445,9 @@ h3 {
 }
 .list-social-card li:hover {
   background-color: #31d0aa;
+}
+.list-social-card-1 li:hover {
+  background-color: #404bbf;
 }
 
 .list-social-card li:not(:last-child) {
