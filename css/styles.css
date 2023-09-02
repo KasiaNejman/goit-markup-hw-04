@@ -418,6 +418,33 @@ h3 {
   padding: 24px 50px;
   background-color: var(--background3);
 }
+.container-1 {
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.customers-list {
+  padding-top: 72px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 24px;
+}
+.customers-list-icons {
+  fill: #8e8f99;
+  width: 168px;
+  height: 88px;
+  flex-shrink: 0;
+  padding: 16px 32px;
+  border-radius: 4px;
+  border: 1px solid var(--lightslate, #8e8f99);
+}
+
+.customers-list-icons:focus,
+.customers-list-icons:hover {
+  border-color: var(--ocean);
+  fill: var(--ocean);
+}
 
 .list-customers li {
   margin-right: 24px;
